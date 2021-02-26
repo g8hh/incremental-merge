@@ -50,10 +50,9 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
+    'Gain 1% Prestige points/s.': '获得1%声望点/秒。',
+    'Raise merges production by 1.15.': '将合并产量提高1.15。',
+    'Prestige stats boost Energy points gain.': '声望属性增加能量点获得。',
     'Energy stats makes interval for Merges faster.': '能量统计使合并时间间隔更快。',
     'Automatically Merge all mergers like interval "Add Merger".': '自动合并所有合并，如间隔“添加合并”。',
     'Highest Merge Tier boost chance to gain Energy.': '最高合并层提升获得能量的几率。',
@@ -183,6 +182,7 @@ var cnExcludeWhole = [
     /^x?\d+(\.\d+)?[A-Za-z%]{0,2}(\s.C)?\s*$/, //12.34K,23.4 °C
     /^x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
     /^\s*$/, //纯空格
+    /^重置合并和数字，可获得 ([\d\.,]+) 声望点$/, //纯空格
     /^\d+(\.\d+)?[A-Za-z]{0,2}.?\(?([+\-]?(\d+(\.\d+)?[A-Za-z]{0,2})?)?$/, //12.34M (+34.34K
     /^(\d+(\.\d+)?[A-Za-z]{0,2}\/s)?.?\(?([+\-]?\d+(\.\d+)?[A-Za-z]{0,2})?\/s\stot$/, //2.74M/s (112.4K/s tot
     /^\d+(\.\d+)?(e[+\-]?\d+)?.?\(?([+\-]?(\d+(\.\d+)?(e[+\-]?\d+)?)?)?$/, //2.177e+6 (+4.01+4
