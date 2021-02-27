@@ -46,6 +46,27 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    'Merge upgrade 1 cost is 25% cheaper.': '合并升级1的费用便宜25%。',
+    'Energy upgrade 1 formula is better.': '能量升级1公式更好。',
+    'Energy effect formula is better.': '能量效应公式更好。',
+    'Energy Stats boost Sacrifice gain.': '能量属性提高牺牲收益。',
+    'Unlock Preons, generate Preons.': '解锁前子，产生前子。',
+    'Prestige Stats boost Sacrifice gain.': '声望属性增加牺牲增益。',
     'Raise Prestige effect by 1.15.': '声望效果提高1.15。',
     'Prestige upgrade 1 formula is better.': '声望升级1公式更好。',
     'Energy Stats boost Energy gain.': '能量属性增加能量增益。',
@@ -187,6 +208,7 @@ var cnExcludeWhole = [
     /^x?\d+(\.\d+)?[A-Za-z%]{0,2}(\s.C)?\s*$/, //12.34K,23.4 °C
     /^x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
     /^\s*$/, //纯空格
+    /^([\d\.,]+) \[([\d\.,]+)\]$/, //纯空格
     /^效果: (.+) ms$/, //纯空格
     /^牺牲点，它产生(.+) 粒子\/秒.$/, //纯空格
     /^重置合并和数字，可获得 ([\d\.,]+) 声望点$/, //纯空格
