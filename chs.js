@@ -36,6 +36,7 @@ var cnItems = {
     'Neutron particles': '中子粒子',
     'Proton particles': '质子粒子',
     'Proton boost chance to Energy gain.': '质子增加了获得能量的几率。',
+    'Unlock 3 new Prestige & Energy upgrades.': '解锁3个新的声望和能量升级',
     '': '',
     '': '',
     '': '',
@@ -45,10 +46,9 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
+    'Raise Prestige effect by 1.15.': '声望效果提高1.15。',
+    'Prestige upgrade 1 formula is better.': '声望升级1公式更好。',
+    'Energy Stats boost Energy gain.': '能量属性增加能量增益。',
     'Numbers boost Particles gain.': '数字增加了粒子的增益。',
     'Gain 1% Prestige points/s.': '获得1%声望点/秒。',
     'Raise merges production by 1.15.': '将合并产量提高1.15。',
@@ -187,6 +187,7 @@ var cnExcludeWhole = [
     /^x?\d+(\.\d+)?[A-Za-z%]{0,2}(\s.C)?\s*$/, //12.34K,23.4 °C
     /^x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
     /^\s*$/, //纯空格
+    /^效果: (.+) ms$/, //纯空格
     /^牺牲点，它产生(.+) 粒子\/秒.$/, //纯空格
     /^重置合并和数字，可获得 ([\d\.,]+) 声望点$/, //纯空格
     /^\d+(\.\d+)?[A-Za-z]{0,2}.?\(?([+\-]?(\d+(\.\d+)?[A-Za-z]{0,2})?)?$/, //12.34M (+34.34K
