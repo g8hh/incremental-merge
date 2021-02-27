@@ -832,7 +832,7 @@ function resetAtom() {
 
 function atomize() {
     if (FORMULA.atoms_gain().gte(1)) {
-        if (player.atoms.stats.gte(ATOMS.milestones[22].req)?true:confirm('Are you really atomize? Reset all previous progress to gain Atoms! Ready?')) {
+        if (player.atoms.stats.gte(ATOMS.milestones[22].req)?true:confirm('你真的原子化了吗?重置之前的所有进度以获得原子!准备好了吗?')) {
             resetAtom()
         }
     }
@@ -930,7 +930,7 @@ function atom_mergeALL() {
 }
 
 function recycleAtoms() {
-    if (FORMULA.recycle_atoms().gt(0)) if (confirm('Are you really recycle all Atom-Mergers?')) {
+    if (FORMULA.recycle_atoms().gt(0)) if (confirm('你真的要回收所有的原子合并吗?')) {
         player.atoms.points = player.atoms.points.add(FORMULA.recycle_atoms())
         for (let i = 0; i < player.atom_merges.length; i++) player.atom_merges[i][0] = 0
     }
