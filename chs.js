@@ -30,6 +30,12 @@ var cnItems = {
     ' You have': ' 你有',
     'WIPE': '擦除',
     'My Discord': '我的Discord',
+    'Sacrifice': '牺牲',
+    'Unlock Sacrifice.': '解锁牺牲。',
+    'Electron particles': '电子粒子',
+    'Neutron particles': '中子粒子',
+    'Proton particles': '质子粒子',
+    'Proton boost chance to Energy gain.': '质子增加了获得能量的几率。',
     '': '',
     '': '',
     '': '',
@@ -43,13 +49,7 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
+    'Numbers boost Particles gain.': '数字增加了粒子的增益。',
     'Gain 1% Prestige points/s.': '获得1%声望点/秒。',
     'Raise merges production by 1.15.': '将合并产量提高1.15。',
     'Prestige stats boost Energy points gain.': '声望属性增加能量点获得。',
@@ -108,7 +108,7 @@ var cnPrefix = {
     "Goal: ": "目标: ",
     "And boosts ": "并且提升 ",
     "for ": "",
-    "Which ": "谁",
+    "Which ": "",
     "boosts ": "提升 ",
     "You atomized ": "你原子化 ",
     "": "",
@@ -167,9 +167,14 @@ var cnPostfix = {
     " ": "",
     "\n": "",
     " Sacrifice points": " 牺牲点",
-    "": "",
-    "": "",
-    "": "",
+    "Electron gain by": "电子增益",
+    "Neutron gain by": "中子增益",
+    "Proton gain by": "质子增益",
+    "Energy gain by": "能量增益",
+    "Merge level by": "合并等级增益",
+    "Prestige gain by": "声望增益",
+    " Atom Dusts.": "原子尘。",
+    " Atom-Merger": "原子合并",
     "": "",
     "": "",
     "": "",
@@ -182,6 +187,7 @@ var cnExcludeWhole = [
     /^x?\d+(\.\d+)?[A-Za-z%]{0,2}(\s.C)?\s*$/, //12.34K,23.4 °C
     /^x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
     /^\s*$/, //纯空格
+    /^牺牲点，它产生(.+) 粒子\/秒.$/, //纯空格
     /^重置合并和数字，可获得 ([\d\.,]+) 声望点$/, //纯空格
     /^\d+(\.\d+)?[A-Za-z]{0,2}.?\(?([+\-]?(\d+(\.\d+)?[A-Za-z]{0,2})?)?$/, //12.34M (+34.34K
     /^(\d+(\.\d+)?[A-Za-z]{0,2}\/s)?.?\(?([+\-]?\d+(\.\d+)?[A-Za-z]{0,2})?\/s\stot$/, //2.74M/s (112.4K/s tot
