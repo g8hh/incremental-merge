@@ -76,7 +76,7 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
-    '': '',
+    'Starting a Uranium run performs an Atom reset, disables Preons features except upgrades. In addition, all pre-Atoms production gain is raised by 0.1.': '启动铀运行执行一个原子重置，禁用前子功能，除了升级。此外，所有原子前的生产增益都提高了0.1。',
     'You keep all Energy upgrades upon sacrificing.': '你可以在牺牲后保留所有的能量升级。',
     'You keep all Prestige upgrades upon sacrificing.': '你可以在牺牲后保留所有的声望升级。',
     'Sacrifice Stats boost all pre-Sacrifice productions.': '牺牲属性会提高所有牺牲前的产量。',
